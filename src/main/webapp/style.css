@@ -1,0 +1,752 @@
+* {
+	margin: 0px;
+}
+
+#heading {
+	background-color: #131A22;
+	color: white;
+	padding: 8px 0px 5px 20px;
+}
+
+#headLoginBtn {
+	margin-top: 9px;
+	margin-right: 25px;
+	float: right;
+	font-size: 20px;
+	font-family: monospace;
+	padding: 4px;
+	border: 2px solid #131A22;
+	background-color: #131A22;
+	color: white;
+}
+
+#headLoginBtn:hover {
+	outline: none;
+	margin-top: 9px;
+	margin-right: 25px;
+	float: right;
+	font-size: 20px;
+	padding: 4px;
+	font-family: monospace;
+	cursor: pointer;
+	border-radius: 4px;
+	text-decoration: underline;
+	color: white;
+}
+
+#loginform {
+	text-align: center;
+	margin: 50px;
+	border: 2px solid #131A22;
+	border-top-color: #131A22;
+	border-top-style: solid;
+	border-top-width: 2px;
+	margin: 0px 500px 0px 500px;
+	padding: 20px 50px 40px 50px;
+	border-radius: 0px 0px 5px 5px;
+	border-top: 0px solid white;
+}
+
+#actionPage {
+	padding: 30px 10px 0px 80px;
+	color: black;
+	margin: 90px 500px 0px 500px;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 25px;
+	border: 2px solid #131A22;
+	border-bottom-color: #131A22;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #131A22;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom: 0px solid white;
+	text-align: left;
+}
+
+.field {
+	margin: 10px;
+	width: 200px;
+	height: 20px;
+	border-top-color: white;
+	border-bottom-color: white;
+	outline: none;
+	border-top: 0px solid gray;
+	border-bottom: 1px solid darkgray;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	background-color: whitesmoke;
+	border-radius: 2px;
+	padding-left: 5px;
+}
+
+.field:focus {
+	padding-left: 5px;
+	margin: 10px;
+	width: 200px;
+	height: 20px;
+	border-top-color: white;
+	border-bottom-color: white;
+	outline: none;
+	border-top: 0px solid gray;
+	border-bottom: 1px solid darkgray;
+	border-left: 0px solid;
+	border-right: 0px solid;
+	background-color: gainsboro;
+	border-radius: 2px;
+}
+
+#click {
+	margin-top: 20px;
+	width: 90px;
+	height: 30px;
+	border-radius: 2px;
+	color: dimgray;
+	border-radius: 4px;
+	font-size: 15px;
+	font-family: unset;
+	cursor: pointer;
+}
+
+#clickProduct {
+	margin-top: 20px;
+	width: 90px;
+	height: 30px;
+	color: dimgray;
+	border-radius: 4px;
+	font-size: 15px;
+	font-family: unset;
+	cursor: pointer;
+	margin-left: 60px;
+	margin-bottom: 20px;
+}
+
+#inviteToRegister {
+	text-align: center;
+	margin-top: 40px;
+	color: dimgray;
+}
+
+#newAccountButton {
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 528px;
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	border-radius: 2px;
+	color: dimgray;
+	font-size: 15px;
+	font-family: unset;
+}
+
+#fbButton {
+	cursor: pointer;
+	box-shadow: 0px 0px 40px 2px blue inset;
+	border: 2px;
+	/* float: left; */
+	/* margin-left: 550px; */
+	margin-top: 30px;
+	margin-right: 5px;
+	text-align: center;
+	color: cornsilk;
+	background-color: white;
+	width: 100px;
+	height: 32px;
+	outline: none;
+	border-radius: 5px;
+}
+
+#fbButton:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 50px 4px blue inset;
+	border: 2px;
+	/* float: left; */
+	/* margin-left: 550px; */
+	margin-top: 30px;
+	margin-right: 5px;
+	text-align: center;
+	color: cornsilk;
+	background-color: white;
+	width: 100px;
+	height: 32px;
+	outline: none;
+	border-radius: 5px;
+}
+
+#goButton {
+	cursor: pointer;
+	box-shadow: 0px 0px 40px 2px green inset;
+	border: 2px;
+	/* margin-top: 40px; */
+	/* margin-right: 10px; */
+	text-align: center;
+	color: cornsilk;
+	background-color: white;
+	width: 100px;
+	border-radius: 5px;
+	height: 32px;
+	outline: none;
+}
+
+#goButton:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 50px 4px green inset;
+	border: 2px;
+	/* margin-top: 40px; */
+	/* margin-right: 10px; */
+	text-align: center;
+	color: cornsilk;
+	background-color: white;
+	width: 100px;
+	border-radius: 5px;
+	height: 32px;
+	outline: none;
+}
+
+#searchItem {
+	margin-top: 7px;
+	border: 1px solid transparent;
+	border-radius: 5px 0px 0px 5px;
+	float: right;
+	font-size: 20px;
+	font-family: ui-sans-serif;
+	padding: 4px;
+	/* border: 2px solid black; */
+	width: 400px;
+}
+
+#searchItem:focus {
+	outline: none;
+	margin-top: 4px;
+	float: right;
+	font-size: 20px;
+	font-family: ui-sans-serif;
+	border: 1px solid transparent;
+	padding: 4px;
+	width: 400px;
+	margin-top: 7px;
+}
+
+#searchButton {
+	outline: none;
+	border-radius: 0px 5px 5px 0px;
+	border: 1px solid white;
+	margin-top: 7px;
+	margin-right: 45%;
+	float: right;
+	font-size: 20px;
+	background: url('search.png');
+	width: 33px;
+	height: 33px;
+	color: white;
+	cursor: pointer;
+	border-left: 0px;
+}
+
+#formField {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+#formField:focus {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#servermsg {
+	float: right;
+	padding: 10px;
+	border: 2px solid black;
+	border-right: 0px;
+	padding-top: 10px;
+	margin-top: 10px;
+	border-radius: 10px 0px 0px 10px;
+	color: black;
+	border-color: blanchedalmond;
+}
+
+#profile {
+	font-size: 20px;
+	font-family: monospace;
+	padding-right: 50px;
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.dropdown {
+	position: relative;
+	background: transparent;
+	display: inline-block;
+	float: right;
+}
+
+.dropdown-content {
+	display: none;
+	background-color: seashell;
+	min-width: 120px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+	position: absolute;
+	border-radius: 5px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: springgreen;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#users {
+	/*display: none;*/
+	padding-top: 50px;
+	margin: auto;
+}
+
+#productAdd {
+	float: left;
+	padding: 10px;
+	border: 2px solid black;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 2px;
+	margin-top: 150px;
+	margin-left: 100px;
+	border-radius: 2px;
+}
+
+.productField {
+	margin: 10px;
+	margin-left: 10px;
+	margin-left: 15px;
+	width: 225px;
+	border: 2px solid aliceblue;
+	height: 20px;
+}
+
+#productAddTitle {
+	padding: 10px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#productSubmit {
+	margin: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	text-align: center;
+	margin-left: 60px;
+}
+
+.adminOptions {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+	border: 2px;
+	float: left;
+	margin-top: 40px;
+	text-align: center;
+	color: #442C2E;
+	background-color: white;
+	width: 120px;
+	height: 36px;
+	outline: none;
+}
+
+#adminOptions {
+	float: right;
+	padding-right: 350px;
+	margin-bottom: 50px;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 60%;
+}
+
+td, th {
+	border: 1px solid honeydew;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: honeydew;
+}
+
+#getProductCount {
+	width: 90px;
+	height: 20px;
+	border-radius: 2px;
+}
+
+#container {
+	padding: 20px;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+#cards {
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+	display: inline-block;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+
+#productImg {
+	height: 150px;
+	background:
+		url(https://www.flaticon.com/svg/static/icons/svg/1573/1573307.svg);
+	background-repeat: round;
+}
+
+#productName {
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font-family: monospace;
+	width: 130px;
+}
+
+#price {
+	font-family: monospace;
+	float: left;
+	margin-top: 7px;
+	font-size: 14px;
+	color: darkgray;
+	margin-left: 25px;
+	font-weight: 700;
+}
+
+#addToCart {
+	cursor: pointer;
+	color: white;
+	background: brown;
+	float: right;
+	margin-right: 20px;
+	width: 81px;
+	height: 30px;
+	font-family: monospace;
+}
+
+#deleteCart {
+	cursor: pointer;
+	/* color: transparent; */
+	height: 30px;
+	width: 69px;
+	margin-left: 17px;
+	color: black;
+}
+
+#bannerImg {
+	width: 100%;
+}
+
+#cards:hover {
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+	display: inline-block;
+	border: 2px solid red;
+	border-radius: 4px;
+	box-shadow: 0px 0px 5px 5px gray;
+}
+
+#productId {
+	display: none;
+}
+
+div#footer {
+	background: #131A22;
+	width: 100%;
+	height: 60px;
+	border-radius: 5px 5px 0px 0px;
+	box-shadow: 0px 0px 50px 5px darkgrey;
+	margin-top: 30px;
+	color: darkgrey;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#labelName {
+	padding-left: 14px;
+	font-size: 25px;
+	padding-bottom: 20px;
+	margin-right: 230px;
+	font-family: monospace;
+}
+
+#cartCards {
+	width: 196px;
+	height: 313px;
+	margin: 10px;
+	display: inline-block;
+	border: 2px solid red;
+	border-radius: 4px;
+}
+
+#cartCards:hover {
+	width: 196px;
+	height: 313px;
+	margin: 10px;
+	display: inline-block;
+	border: 2px solid red;
+	box-shadow: 0px 0px 5px 2px brown;
+	border-radius: 4px;
+}
+
+#cartContainer {
+	padding: 40px;
+	padding-right: 40px;
+	white-space: nowrap;
+	float: left;
+	margin-left: 130px;
+	padding-right: 20px;
+	margin-top: 70px;
+	width: 47%;
+	margin-bottom: 70px;
+}
+
+#noCart {
+	color: darkgray;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#totalAmt {
+	display: none;
+}
+
+#productImgCart {
+	background:
+		url(https://www.flaticon.com/svg/static/icons/svg/1573/1573307.svg);
+	background-repeat: repeat;
+	background-repeat: round;
+	height: 66%;
+	width: 98%;
+	background-repeat: repeat;
+	background-repeat: round;
+	margin-bottom: 6px;
+}
+/*
+#verifyCart {
+	margin-top: 195px;
+	margin-right: 18%;
+	height: 50px;
+	float: right;
+	padding: 20px;
+	text-align: center;
+	font-family: monospace;
+	font-size: large;
+	font-style: normal;
+	font-weight: bold;
+}*/
+#verifyCart {
+	padding: 65px;
+	text-align: center;
+	margin-top: 14%;
+	width: 27%;
+	font-family: monospace;
+	font-size: large;
+	font-style: normal;
+	font-weight: bold;
+	float: right;
+}
+
+#confirmCart {
+	margin-top: 20px;
+	width: 210px;
+	margin-bottom: 100px;
+	height: 36px;
+	border-radius: 2px;
+	background-color: #a46497;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: monospace;
+}
+
+#noCartFound {
+	margin-left: 34%;
+	margin-top: 20px;
+	width: 210px;
+	margin-bottom: 100px;
+	height: 36px;
+	border-radius: 2px;
+	background-color: #a46497;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: monospace;
+	margin-top: 20px;
+}
+
+#deleteCart {
+	width: 82px;
+	color: dimgray;
+	border-radius: 4px;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: monospace;
+	height: 30px;
+}
+
+#myCart {
+	float: right;
+	margin-right: 26px;
+	margin-top: 6px;
+}
+
+#cartCount {
+	float: right;
+	margin-right: 31px;
+	font-size: medium;
+	color: lightyellow;
+}
+
+#checkCartFooter {
+	background: #131A22;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 50px 5px darkgrey;
+	margin-top: 30px;
+	color: darkgrey;
+	text-align: center;
+	padding: 30px;
+	bottom: 0%;
+	float: right;
+}
+
+#cartImgs {
+	width: 44px;
+}
+
+#deleteFromCartList {
+	display: block;
+	font-size: 1.0em;
+	margin: 10px;
+	height: 1em;
+	width: 1em;
+	text-align: center;
+	line-height: 1;
+	border-radius: 100%;
+	color: red;
+	text-decoration: none;
+	font-weight: 700;
+	border: 0;
+	padding: 5px;
+}
+
+#deleteFromCartList:hover {
+	background-color: red;
+	text-align: center;
+	color: white;
+	line-height: 1;
+	border-radius: 100%;
+	margin: 10px;
+	cursor: pointer;
+	padding: 5px;
+}
+
+#quantity {
+	font-family: monospace;
+	float: left;
+	margin-top: 7px;
+	font-size: 14px;
+	color: darkgray;
+	margin-left: 25px;
+	font-weight: 700;
+}
+
+#productNameInCart {
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font-family: monospace;
+	width: 130px;
+	padding-left: 33px;
+}
+
+#productHeading {
+	padding-left: 35px;
+	padding-right: 172px;
+}
+
+#shippingDetails {
+	font-family: monospace;
+}
+
+#myContainer {
+	padding: 88px;
+	width: 56%;
+	margin: auto;
+}
+
+#checkOutHeading {
+	font-size: x-large;
+	padding: 20px;
+}
+
+#checkoutlabel {
+	color: gray;
+	padding-left: 50px;
+}
+
+#confirmButtonAddress {
+	width: 210px;
+	margin-top: 5%;
+	height: 36px;
+	background-color: #a46497;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: monospace;
+}
+
+#payButton {
+	margin-right: 34px;
+	width: 210px;
+	margin-bottom: 10px;
+	height: 36px;
+	border-radius: 2px;
+	background-color: #a46497;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: monospace;
+}
+
+#myCart:hover {
+	box-shadow: 0px 0px 5px 5px black;
+	border-radius: 5px;
+}
+
+#logo:hover {
+	box-shadow: 0px 0px 5px 5px black;
+	border-radius: 5px;
+}
